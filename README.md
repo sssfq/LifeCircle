@@ -24,3 +24,17 @@
 
 100m = 0.001141° 经度
 
+# Arcpy
+## 配置PyCharm + ArcGIS 10.6中Python 2.7开发环境
+https://www.cnblogs.com/suncf/p/12357913.html
+
+## arcpy.da.SearchCursor() 读取shp文件
+https://blog.csdn.net/pushhy/article/details/108948476
+
+## arcpy.CreateTin_3d() 矢量shapefile文件创建TIN图层
+https://desktop.arcgis.com/zh-cn/arcmap/latest/tools/3d-analyst-toolbox/create-tin.html
+
+## arcpy.SurfaceContour_3d() TIN图层绘制等值线
+https://desktop.arcgis.com/zh-cn/arcmap/latest/tools/3d-analyst-toolbox/surface-contour.html
+
+
