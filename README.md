@@ -24,6 +24,9 @@
 
 100m = 0.001141° 经度
 
+## 坐标转换程序
+https://www.jianshu.com/p/6e69737cffaa
+
 # Arcpy
 ## 配置PyCharm + ArcGIS 10.6中Python 2.7开发环境
 https://www.cnblogs.com/suncf/p/12357913.html
@@ -36,5 +39,10 @@ https://desktop.arcgis.com/zh-cn/arcmap/latest/tools/3d-analyst-toolbox/create-t
 
 ## arcpy.SurfaceContour_3d() TIN图层绘制等值线
 https://desktop.arcgis.com/zh-cn/arcmap/latest/tools/3d-analyst-toolbox/surface-contour.html
+
+## arcpy.FeatureToPolygon_management() 等值线要素转换为等值面
+https://pro.arcgis.com/zh-cn/pro-app/latest/tool-reference/data-management/feature-to-polygon.htm
+
+特别的，需要将cluster_tolerance参数设置为0，不应保持默认。
 
 

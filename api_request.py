@@ -3,7 +3,7 @@ import json
 class BDAPI():
     def __init__(self,bdak='zvcAtSx9oQAw1qFyW1QGz0CGVbDwLBjV',vehicle='walking',
                  url_head='https://api.map.baidu.com/directionlite/v1/'
-                ):
+                ):  #'zvcAtSx9oQAw1qFyW1QGz0CGVbDwLBjV'
         self.bdak = bdak
         self.vehicle = vehicle
         self.url_head = url_head

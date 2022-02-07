@@ -3,7 +3,7 @@ import json
 import shapefile
 
 ## request api for distance info
-bdak = 'zvcAtSx9oQAw1qFyW1QGz0CGVbDwLBjV'
+bdak = 'zvcAtSx9oQAw1qFyW1QGz0CGVbDwLBjV' #ex'zvcAtSx9oQAw1qFyW1QGz0CGVbDwLBjV'
 origin_lati = 32.03458655
 origin_long = 118.7418109
 destin_lati = 32.03658655
@@ -22,10 +22,10 @@ distance = read_json['result']['routes'][0]['distance']  # unit: meter
 duration = read_json['result']['routes'][0]['duration']  # unit: second
 
 print(distance,duration)
-
+print
 ## convert to .shp file
 
-data_address = './test_point.shp'
+data_address = './test_point_20220206.shp'
 file = shapefile.Writer(data_address)#,shapeType=1,autoBalance=1
 file.field('Distance','N')
 file.field('Duration','N')
